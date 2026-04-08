@@ -27,12 +27,32 @@
                 <li><a href="origen.html">Origen</a></li>
                 <li><a href="index.html#contacto">Contacto</a></li>
             </ul>
+            <div class="lang-switch" aria-label="Selector de idioma">
+                <button type="button" class="lang-btn is-active" data-lang-switch="es" aria-pressed="true">
+                    <span class="lang-flag">🇨🇴</span>
+                    <span>ES</span>
+                </button>
+                <button type="button" class="lang-btn" data-lang-switch="en" aria-pressed="false">
+                    <span class="lang-flag">🇺🇸</span>
+                    <span>EN</span>
+                </button>
+            </div>
             <a href="index.html#contacto" class="nav-cta">Contacto</a>
             <button class="nav-hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMobile">
                 <span></span><span></span><span></span>
             </button>
         </div>
         <div class="nav-mobile" id="navMobile">
+            <div class="lang-switch lang-switch--mobile" aria-label="Selector de idioma móvil">
+                <button type="button" class="lang-btn is-active" data-lang-switch="es" aria-pressed="true">
+                    <span class="lang-flag">🇨🇴</span>
+                    <span>ES</span>
+                </button>
+                <button type="button" class="lang-btn" data-lang-switch="en" aria-pressed="false">
+                    <span class="lang-flag">🇺🇸</span>
+                    <span>EN</span>
+                </button>
+            </div>
             <a href="index.html">Inicio</a>
             <a href="tienda.html">Tienda</a>
             <a href="cafe-leonor.html">Café Leonor</a>
@@ -244,6 +264,7 @@
 
     <script src="vendor/gsap.min.js"></script>
     <script src="vendor/ScrollTrigger.min.js"></script>
+    <script src="js/i18n.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
