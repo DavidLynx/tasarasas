@@ -1,0 +1,411 @@
+﻿<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASARA | Café colombiano de especialidad con origen y propósito</title>
+    <meta name="description" content="TASARA conecta café colombiano de especialidad, origen en Risaralda y Caldas, impacto social y soluciones para consumidores, aliados y empresas." />
+    <meta name="keywords" content="café colombiano, café de especialidad, Café Leonor, TASARA, café de Risaralda, café de Caldas, café premium colombiano" />
+    <meta name="author" content="TASARA SAS" />
+    <meta property="og:title" content="TASARA | Café colombiano de especialidad con origen y propósito" />
+    <meta property="og:description" content="Café colombiano de especialidad, trazabilidad, impacto social y soluciones para consumidores y empresas desde Risaralda y Caldas." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:image" content="assets/tasara_logo_blanco.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TASARA | Café colombiano de especialidad con origen y propósito" />
+    <meta name="twitter:description" content="Conectamos origen, calidad e impacto social a través de Café Leonor y soluciones alrededor del café colombiano." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <script>
+        document.documentElement.classList.remove("no-js");
+        document.documentElement.classList.add("js");
+    </script>
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="#inicio" class="nav-logo">
+                <img src="assets/tasara_logo_blanco.png" alt="TASARA" class="logo-tasara" />
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#tasara">TASARA</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="cafe-leonor.html">Café Leonor</a></li>
+                <li><a href="origen.html">Origen</a></li>
+                <li><a href="#impacto">Impacto</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+            <a href="tienda.html" class="nav-cta">Tienda</a>
+
+            <button class="nav-hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMobile">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+
+        <div class="nav-mobile" id="navMobile">
+            <a href="#inicio">Inicio</a>
+            <a href="#tasara">TASARA</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="cafe-leonor.html">Café Leonor</a>
+            <a href="origen.html">Origen</a>
+            <a href="#impacto">Impacto</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <section class="hero" id="inicio">
+        <div class="hero-bg-pattern"></div>
+
+        <div class="hero-content">
+            <p class="hero-badge" id="heroBadge">Colombia · Café de especialidad · Origen con propósito</p>
+
+            <h1 class="hero-title" id="heroTitle">
+                Café colombiano<br />
+                <em>para momentos que sí importan.</em>
+            </h1>
+
+            <p class="hero-subtitle" id="heroSubtitle">
+                TASARA nace del encuentro entre personas, territorios y una forma más consciente
+                de disfrutar el café colombiano. Trabajamos con origen en Risaralda y Caldas para
+                llevar calidad, cercanía y propósito a consumidores, aliados y empresas.
+            </p>
+
+            <div class="hero-ctas" id="heroCtas">
+                <a href="tienda.html" class="btn btn-primary">Ir a la tienda</a>
+                <a href="#tasara" class="btn btn-outline">Conocer TASARA</a>
+            </div>
+
+            <div class="hero-stats" id="heroStats">
+                <div class="stat">
+                    <span class="stat-num">100%</span>
+                    <span class="stat-label">Café colombiano</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-num">B2C + B2B</span>
+                    <span class="stat-label">Modelo comercial</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-num">Premium</span>
+                    <span class="stat-label">Calidad y presentación</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-logo-wrap" id="heroLogo">
+            <img src="assets/tasara_logo_blanco.png" alt="TASARA" class="hero-logo-img" />
+        </div>
+
+        <div class="hero-scroll-hint" id="heroScroll">
+            <span>Descubrir</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <section class="pilares" id="tasara">
+        <div class="section-inner">
+            <div class="pilar" data-pilar>
+                <button class="pilar-trigger" type="button" data-pill-trigger aria-expanded="true">
+                    <span class="pilar-icon-wrap">
+                        <span class="pilar-icon">◆</span>
+                    </span>
+                    <span class="pilar-trigger-copy">
+                        <span class="pilar-trigger-title">Empresa</span>
+                        <span class="pilar-trigger-text">Una marca que une historia, territorio y experiencia cafetera.</span>
+                    </span>
+                </button>
+                <h3>La empresa</h3>
+                <p>TASARA SAS fue creada por Ángela María Arango Jaramillo y Camilo Ernesto Tascón Devia. Su historia nace de una amistad, del vínculo entre Cali y la región cafetera, y de años de trabajo cercano con familias productoras que han hecho del café una forma de vida.</p>
+            </div>
+            <div class="pilar" data-pilar>
+                <button class="pilar-trigger" type="button" data-pill-trigger aria-expanded="false">
+                    <span class="pilar-icon-wrap">
+                        <span class="pilar-icon">◆</span>
+                    </span>
+                    <span class="pilar-trigger-copy">
+                        <span class="pilar-trigger-title">Origen</span>
+                        <span class="pilar-trigger-text">Risaralda y Caldas como punto de partida de cada experiencia.</span>
+                    </span>
+                </button>
+                <h3>Nuestra historia</h3>
+                <p>La marca recoge esa cercanía entre regiones y la convierte en una propuesta con identidad propia. Desde Risaralda y Caldas, TASARA construye una relación real con el origen y la transforma en productos que conectan tradición, diseño y visión de futuro. Así nace Café Leonor.</p>
+            </div>
+            <div class="pilar" data-pilar>
+                <button class="pilar-trigger" type="button" data-pill-trigger aria-expanded="false">
+                    <span class="pilar-icon-wrap">
+                        <span class="pilar-icon">◆</span>
+                    </span>
+                    <span class="pilar-trigger-copy">
+                        <span class="pilar-trigger-title">Propósito</span>
+                        <span class="pilar-trigger-text">Calidad, permanencia e impacto social desde el territorio.</span>
+                    </span>
+                </button>
+                <h3>Compromiso</h3>
+                <p>TASARA trabaja para tender puentes entre el esfuerzo del campo colombiano y quienes buscan un café mejor. Lo hacemos con una visión de largo plazo, respeto por las comunidades cafeteras y una apuesta clara por la calidad en cada detalle.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="productos" id="lineas">
+        <div class="section-inner">
+            <div class="productos-header" data-reveal>
+                <span class="section-label">Líneas de negocio</span>
+                <h2 class="section-title">Una misma visión del café,<br /><em>en diferentes formas de llegar a ti.</em></h2>
+                <p class="productos-sub">Desde Café Leonor hasta soluciones para negocio, TASARA reúne productos pensados para consumo diario, regalos, alianzas comerciales y desarrollo de marca alrededor del café colombiano.</p>
+                <div class="hero-ctas">
+                    <a href="tienda.html" class="btn btn-primary">Ver tienda</a>
+                </div>
+            </div>
+
+            <div class="productos-grid">
+                <div class="producto-card" data-product>
+                    <div class="producto-img-wrap">
+                        <div class="producto-img producto-img--molido">
+                            <img src="assets/cafe1.png" alt="Ícono de Café Leonor" class="producto-icon" />
+                        </div>
+                        <span class="producto-badge">Marca propia</span>
+                    </div>
+                    <div class="producto-info">
+                        <span class="producto-tipo">Café tostado</span>
+                        <h3>Café Leonor</h3>
+                        <p class="producto-notas">Café arábiga de especialidad pensado para acompañar la casa, la oficina, los regalos y esos momentos cotidianos que merecen una mejor taza.</p>
+                        <a href="cafe-leonor.html" class="btn btn-outline">Ver detalle</a>
+                    </div>
+                </div>
+
+                <div class="producto-card featured" data-product>
+                    <div class="producto-img-wrap">
+                        <div class="producto-img producto-img--pocket">
+                            <img src="assets/negocios.png" alt="Ícono de lotes para negocio" class="producto-icon" />
+                        </div>
+                        <span class="producto-badge">B2B</span>
+                    </div>
+                    <div class="producto-info">
+                        <span class="producto-tipo">Café verde</span>
+                        <h3>Lotes para negocio</h3>
+                        <p class="producto-notas">Una oferta para compradores y aliados que necesitan trazabilidad, información clara de finca y selección de café colombiano según su búsqueda.</p>
+                        <a href="origen.html" class="btn btn-outline">Consultar origen</a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-product>
+                    <div class="producto-img-wrap">
+                        <div class="producto-img producto-img--grano">
+                            <img src="assets/soluciones.png" alt="Ícono de soluciones TASARA" class="producto-icon" />
+                        </div>
+                        <span class="producto-badge">Empresas</span>
+                    </div>
+                    <div class="producto-info">
+                        <span class="producto-tipo">Marca personalizada</span>
+                        <h3>Soluciones TASARA</h3>
+                        <p class="producto-notas">Desarrollamos propuestas para empresas que quieren ofrecer café con una presentación cuidada, identidad propia y acompañamiento comercial.</p>
+                        <a href="#contacto" class="btn btn-outline">Hablar de B2B</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="marca" id="cafe-leonor">
+        <div class="marca-inner">
+            <div class="marca-texto" data-reveal>
+                <span class="section-label">Producto protagonista</span>
+                <h2 class="section-title">Café Leonor,<br /><em>una taza con identidad colombiana.</em></h2>
+                <p>Café Leonor es la expresión más cercana de TASARA: un café de especialidad que reúne origen, cuidado en la presentación y una forma más humana de compartir lo que somos.</p>
+                <p>Es una marca pensada para acompañar momentos cotidianos con calidad, confianza y una identidad visual que honra el trabajo de las comunidades cafeteras.</p>
+
+                <div class="marca-specs">
+                    <div class="spec"><span class="spec-label">Variedad</span><span class="spec-val">Coffea arábica</span></div>
+                    <div class="spec"><span class="spec-label">Origen</span><span class="spec-val">Caldas y Risaralda</span></div>
+                    <div class="spec"><span class="spec-label">Formatos</span><span class="spec-val">50 g a 2.5 kg</span></div>
+                    <div class="spec"><span class="spec-label">Línea</span><span class="spec-val">Propia y empresarial</span></div>
+                </div>
+
+                <div class="hero-ctas">
+                    <a href="tienda.html" class="btn btn-primary">Comprar</a>
+                    <a href="cafe-leonor.html" class="btn btn-outline">Ver más detalles</a>
+                </div>
+            </div>
+
+            <div class="marca-visual" data-reveal-right>
+                <div class="marca-img-wrap">
+                    <img src="assets/cafe_leonor_2_Mesa_de_trabajo_1.png" alt="Empaque de Café Leonor" class="marca-img" />
+                </div>
+                <div class="marca-note">
+                    <p>Formatos disponibles</p>
+                    <div class="notas-grid">
+                        <span class="nota">50 g</span>
+                        <span class="nota">340 g</span>
+                        <span class="nota">500 g</span>
+                        <span class="nota">2.5 kg</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="origen" id="origen">
+        <div class="origen-inner">
+            <div class="origen-label" data-reveal>
+                <span class="section-label">Origen y trazabilidad</span>
+                <h2 class="section-title">Risaralda y Caldas,<br /><em>el origen que acompaña cada lote.</em></h2>
+                <p>El café que trabaja TASARA proviene de fincas ubicadas en Risaralda y Caldas. Allí empieza la historia de cada lote, con fechas, nombres, paisajes y procesos que vale la pena conocer más de cerca.</p>
+                <a href="origen.html" class="btn btn-outline">Consultar lotes</a>
+            </div>
+
+            <div class="origen-timeline" data-reveal-right>
+                <div class="timeline-item active" data-lote>
+                    <div class="tl-dot"></div>
+                    <div class="tl-card">
+                        <span class="tl-lote">Lotes</span>
+                        <h4>Línea de tiempo por finca</h4>
+                        <p>Registro de lotes por período, finca y momentos clave para seguir más de cerca el recorrido del café.</p>
+                        <div class="tl-tags">
+                            <span>Fechas</span><span>Códigos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-lote>
+                    <div class="tl-dot"></div>
+                    <div class="tl-card">
+                        <span class="tl-lote">Contenido</span>
+                        <h4>Fotos y videos por lote</h4>
+                        <p>Galerías de finca y enlaces a videos cortos para que el origen también se sienta cercano, visual y fácil de explorar.</p>
+                        <div class="tl-tags">
+                            <span>Galería</span><span>YouTube</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-lote>
+                    <div class="tl-dot"></div>
+                    <div class="tl-card">
+                        <span class="tl-lote">Relación</span>
+                        <h4>Información más humana</h4>
+                        <p>Una mirada más humana al territorio, a las personas y a los procesos que hacen posible cada taza.</p>
+                        <div class="tl-tags">
+                            <span>Finca</span><span>Historia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tl-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="impacto" id="impacto">
+        <div class="impacto-inner">
+            <div class="impacto-content" data-reveal>
+                <span class="section-label">Impacto social</span>
+                <h2 class="section-title">Un café con sentido,<br /><em>hecho para durar en la memoria.</em></h2>
+                <p>En TASARA creemos que un buen café también debe generar valor alrededor suyo. Por eso trabajamos de la mano con comunidades cafeteras, en especial con mujeres cabeza de familia, promoviendo oportunidades de desarrollo económico y social.</p>
+                <p>Queremos que cada producto refleje calidad, origen, confianza y una relación responsable con quienes hacen posible el café.</p>
+                <a href="#contacto" class="btn btn-outline">Hablemos de alianzas</a>
+            </div>
+
+            <div class="impacto-pillars" data-reveal-right>
+                <div class="impacto-pilar">
+                    <span class="ip-num">01</span>
+                    <div>
+                        <h4>Calidad premium</h4>
+                        <p>Procesos rigurosos y consistencia para ofrecer un café confiable, bien presentado y agradable de repetir.</p>
+                    </div>
+                </div>
+                <div class="impacto-pilar">
+                    <span class="ip-num">02</span>
+                    <div>
+                        <h4>Origen y propósito</h4>
+                        <p>Relación cercana con comunidades productoras y reconocimiento del trabajo campesino colombiano.</p>
+                    </div>
+                </div>
+                <div class="impacto-pilar">
+                    <span class="ip-num">03</span>
+                    <div>
+                        <h4>Innovación y confianza</h4>
+                        <p>Productos actuales, empaques cuidados y soluciones adaptadas a distintos momentos y canales de mercado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <div class="section-inner">
+            <div class="contacto-header" data-reveal>
+                <span class="section-label">Contacto</span>
+                <h2 class="section-title">Hablemos de café,<br /><em>compra, negocio o una nueva alianza.</em></h2>
+            </div>
+
+            <div class="contacto-grid">
+                <div class="contacto-card" data-reveal>
+                    <h3>Compra rápida</h3>
+                    <p>Para pedidos de Café Leonor, consultas sobre presentaciones o atención directa para consumidor final.</p>
+                    <a href="https://wa.me/573054402145?text=Hola%2C%20quiero%20comprar%20Caf%C3%A9%20Leonor" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">WhatsApp · Compra</a>
+                    <a href="mailto:contacto@tasara.colombia.com" class="btn btn-outline mt-12">contacto@tasara.colombia.com</a>
+                </div>
+
+                <div class="contacto-card" data-reveal>
+                    <h3>Negocios y marca personalizada</h3>
+                    <p>Para café verde, desarrollo de marca, soluciones para empresas, hoteles, restaurantes, distribuidores y oportunidades de exportación.</p>
+                    <a href="https://wa.me/573054402145?text=Hola%2C%20quiero%20informaci%C3%B3n%20B2B%20de%20TASARA" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Solicitar cotización</a>
+                    <p class="contacto-micro">Atención comercial para desarrollo de negocio y expansión.</p>
+                </div>
+
+                <div class="contacto-card contacto-card--datos" data-reveal>
+                    <h3>TASARA SAS</h3>
+                    <ul class="datos-list">
+                        <li><span>NIT</span> 901940133-2</li>
+                        <li><span>Dirección</span> Cra 35 Tv 24-314, Dosquebradas</li>
+                        <li><span>Ciudad</span> Risaralda, Colombia</li>
+                    </ul>
+                    <div class="redes">
+                        <a href="https://www.instagram.com/caffeleonor/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+                        <a href="https://www.tiktok.com/@caf.leonor" target="_blank" rel="noopener noreferrer" aria-label="TikTok">TK</a>
+                        <a href="https://www.youtube.com/@CafeLeonor" target="_blank" rel="noopener noreferrer" aria-label="YouTube">YT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="assets/tasara_logo_blanco.png" alt="TASARA" class="footer-logo" />
+                <p>TASARA SAS · Café colombiano de especialidad<br />Origen, calidad e impacto social con mirada de largo plazo</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#tasara">TASARA</a>
+                <a href="tienda.html">Tienda</a>
+                <a href="cafe-leonor.html">Café Leonor</a>
+                <a href="origen.html">Origen</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+
+            <div class="footer-legal">
+                <p>© 2026 TASARA SAS · NIT 901940133-2</p>
+                <p><a href="mailto:contacto@tasara.colombia.com">contacto@tasara.colombia.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="vendor/gsap.min.js"></script>
+    <script src="vendor/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Origen | TASARA</title>
+    <meta name="description" content="Explora el origen de Café Leonor a través de sus fincas, lotes y perfiles de taza en una línea de tiempo visual de trazabilidad." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script>
+        document.documentElement.classList.remove("no-js");
+        document.documentElement.classList.add("js");
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="origin-page">
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <img src="assets/tasara_logo_blanco.png" alt="TASARA" class="logo-tasara" />
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="cafe-leonor.html">Café Leonor</a></li>
+                <li><a href="origen.html">Origen</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
+            <a href="tienda.html" class="nav-cta">Comprar</a>
+            <button class="nav-hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMobile">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="nav-mobile" id="navMobile">
+            <a href="index.html">Inicio</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="cafe-leonor.html">Café Leonor</a>
+            <a href="origen.html">Origen</a>
+            <a href="index.html#contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <section class="origin-hero">
+        <div class="section-inner origin-hero-grid">
+            <div class="origin-hero-copy">
+                <span class="leonor-kicker" id="heroBadge">Origen y trazabilidad · Café Leonor</span>
+                <h1 class="leonor-title" id="heroTitle">
+                    Cada lote tiene<br />
+                    <em>una finca, un paisaje y una historia.</em>
+                </h1>
+                <p class="hero-subtitle" id="heroSubtitle">
+                    Esta página reúne el recorrido de Café Leonor entre 2025 y 2026 a través de tres fincas:
+                    La Sociedad, La Siria y La Esperanza. Aquí puedes ver qué productora estuvo detrás de cada lote,
+                    de qué municipio proviene y cómo se expresa ese origen en la taza.
+                </p>
+                <div class="hero-ctas" id="heroCtas">
+                    <a href="#timeline" class="btn btn-primary">Ver línea de tiempo</a>
+                    <a href="tienda.html" class="btn btn-outline">Ir a la tienda</a>
+                </div>
+                <div class="hero-stats" id="heroStats">
+                    <div class="stat">
+                        <span class="stat-num">6</span>
+                        <span class="stat-label">lotes registrados</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-num">3</span>
+                        <span class="stat-label">fincas base</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-num">2025</span>
+                        <span class="stat-label">a 2026</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="origin-hero-montage" id="heroLogo">
+                <figure class="origin-hero-card card-a" data-origin-hero-card>
+                    <img src="assets/finca_la_siria1.jpeg" alt="Mirador de la finca La Siria" />
+                    <figcaption>La Siria · Mirador de la casa</figcaption>
+                </figure>
+                <figure class="origin-hero-card card-b" data-origin-hero-card>
+                    <img src="assets/finca_la_esperanza1.png" alt="Casa principal de la finca La Esperanza" />
+                    <figcaption>La Esperanza · Casa principal</figcaption>
+                </figure>
+                <figure class="origin-hero-card card-c" data-origin-hero-card>
+                    <img src="assets/finca_la_sociedad1.png" alt="Vista del cafetal en la finca La Sociedad" />
+                    <figcaption>La Sociedad · Cafetal y paisaje</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="origin-band" data-origin-band>
+        <div class="section-inner origin-band-inner">
+            <p>
+                La trazabilidad aquí no se presenta como una ficha fría: se lee como un diario de origen.
+                Cada finca concentra uno o más lotes, y cada imagen ayuda a entender mejor el contexto de producción,
+                el paisaje y la mano que acompaña el café desde su cultivo hasta la taza.
+            </p>
+        </div>
+    </section>
+
+    <section class="origin-storyline" id="timeline">
+        <div class="origin-line">
+            <span class="origin-line-progress" id="originLineProgress"></span>
+        </div>
+
+        <article class="origin-entry" data-origin-entry>
+            <div class="origin-rail">
+                <span class="origin-rail-year">2025</span>
+                <span class="origin-rail-range">Junio · Julio</span>
+            </div>
+
+            <div class="origin-card">
+                <div class="origin-card-top">
+                    <div>
+                        <span class="section-label">Finca La Sociedad</span>
+                        <h2>Risaralda, Caldas<br /><em>Alejandra Ríos</em></h2>
+                    </div>
+                    <div class="origin-lot-tags">
+                        <span class="origin-chip">Lote 01 · 11/06/2025</span>
+                        <span class="origin-chip">Lote 02 · 09/07/2025</span>
+                    </div>
+                </div>
+
+                <p class="origin-body-copy">
+                    La Sociedad aporta una lectura muy abierta del paisaje cafetero. Sus registros combinan retrato,
+                    zona de secado y vista sobre la montaña, mostrando un origen con presencia humana y una relación
+                    directa entre la productora y el entorno.
+                </p>
+
+                <div class="spec-grid">
+                    <div class="spec-item"><strong>Predio</strong>La Sociedad</div>
+                    <div class="spec-item"><strong>Municipio</strong>Risaralda, Caldas</div>
+                    <div class="spec-item"><strong>Altitud</strong>1640 msnm</div>
+                    <div class="spec-item"><strong>Variedad</strong>Castillo y Bourbon Rosado</div>
+                    <div class="spec-item"><strong>Perfil de taza</strong>Caramelo, panela, chocolate y frutos rojos</div>
+                    <div class="spec-item"><strong>Lectura visual</strong>Paisaje, cafetal y secado</div>
+                </div>
+
+                <div class="origin-collage" data-origin-collage>
+                    <figure class="origin-shot" data-origin-shot data-rotate="-8" style="--w: 38%; --x: 4%; --y: 10%; --r: -8deg;">
+                        <img src="assets/finca_la_sociedad1.png" alt="Productora en el cafetal de la finca La Sociedad" />
+                        <figcaption>Retrato en el cafetal</figcaption>
+                    </figure>
+                    <figure class="origin-shot" data-origin-shot data-rotate="6" style="--w: 42%; --x: 48%; --y: 16%; --r: 6deg;">
+                        <img src="assets/finca_la_sociedad2.png" alt="Zona de secado en la finca La Sociedad" />
+                        <figcaption>Zona de secado y control</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </article>
+
+        <article class="origin-entry" data-origin-entry>
+            <div class="origin-rail">
+                <span class="origin-rail-year">2025 · 2026</span>
+                <span class="origin-rail-range">Septiembre · Marzo</span>
+            </div>
+
+            <div class="origin-card">
+                <div class="origin-card-top">
+                    <div>
+                        <span class="section-label">Finca La Siria</span>
+                        <h2>Belalcázar, Caldas<br /><em>Gloria Jaramillo de Arango</em></h2>
+                    </div>
+                    <div class="origin-lot-tags">
+                        <span class="origin-chip">Lote 03 · 11/09/2025</span>
+                        <span class="origin-chip">Lote 06 · 02/03/2026</span>
+                    </div>
+                </div>
+
+                <p class="origin-body-copy">
+                    La Siria tiene una fuerza visual muy especial: su casa abierta al valle, la vista desde el balcón y el
+                    entorno de ladera conectan el café con un paisaje amplio, luminoso y profundamente cafetero.
+                    Aquí el origen se siente tanto en la finca como en la atmósfera.
+                </p>
+
+                <div class="spec-grid">
+                    <div class="spec-item"><strong>Predio</strong>La Siria</div>
+                    <div class="spec-item"><strong>Vereda</strong>El Madroño</div>
+                    <div class="spec-item"><strong>Municipio</strong>Belalcázar, Caldas</div>
+                    <div class="spec-item"><strong>Altitud</strong>1600 msnm</div>
+                    <div class="spec-item"><strong>Variedad</strong>Castillo y Caturra</div>
+                    <div class="spec-item"><strong>Perfil de taza</strong>Panela, chocolate y frutos amarillos</div>
+                </div>
+
+                <div class="origin-collage" data-origin-collage>
+                    <figure class="origin-shot" data-origin-shot data-rotate="-10" style="--w: 38%; --x: 2%; --y: 8%; --r: -10deg;">
+                        <img src="assets/finca_la_siria1.jpeg" alt="Atardecer desde el balcón de la finca La Siria" />
+                        <figcaption>Atardecer desde el balcón</figcaption>
+                    </figure>
+                    <figure class="origin-shot" data-origin-shot data-rotate="7" style="--w: 30%; --x: 31%; --y: 0%; --r: 7deg;">
+                        <img src="assets/Finca_La_siria2.png" alt="Mirador principal de la finca La Siria" />
+                        <figcaption>Mirador principal</figcaption>
+                    </figure>
+                    <figure class="origin-shot" data-origin-shot data-rotate="-4" style="--w: 32%; --x: 63%; --y: 12%; --r: -4deg;">
+                        <img src="assets/finca_la_siria3.jpeg" alt="Corredor exterior de la finca La Siria" />
+                        <figcaption>Corredor de la casa</figcaption>
+                    </figure>
+                    <figure class="origin-shot" data-origin-shot data-rotate="6" style="--w: 42%; --x: 28%; --y: 44%; --r: 6deg;">
+                        <img src="assets/finca_la_siria4.jpeg" alt="Vista abierta desde la terraza de La Siria" />
+                        <figcaption>Vista sobre el valle cafetero</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </article>
+
+        <article class="origin-entry" data-origin-entry>
+            <div class="origin-rail">
+                <span class="origin-rail-year">2025 · 2026</span>
+                <span class="origin-rail-range">Noviembre · Enero</span>
+            </div>
+
+            <div class="origin-card">
+                <div class="origin-card-top">
+                    <div>
+                        <span class="section-label">Finca La Esperanza</span>
+                        <h2>Pereira, Risaralda<br /><em>Amparo Bermúdez</em></h2>
+                    </div>
+                    <div class="origin-lot-tags">
+                        <span class="origin-chip">Lote 04 · 26/11/2025</span>
+                        <span class="origin-chip">Lote 05 · 23/01/2026</span>
+                    </div>
+                </div>
+
+                <p class="origin-body-copy">
+                    La Esperanza muestra un origen más técnico y a la vez muy humano: la casa de la finca, la ladera sembrada
+                    y el espacio de secado donde el café toma forma. Es una finca que deja ver tanto estructura como cuidado
+                    en cada etapa del proceso.
+                </p>
+
+                <div class="spec-grid">
+                    <div class="spec-item"><strong>Predio</strong>La Esperanza</div>
+                    <div class="spec-item"><strong>Vereda</strong>La Convención</div>
+                    <div class="spec-item"><strong>Municipio</strong>Pereira, Risaralda</div>
+                    <div class="spec-item"><strong>Altitud</strong>1707 msnm</div>
+                    <div class="spec-item"><strong>Variedad</strong>Castillo y Caturra</div>
+                    <div class="spec-item"><strong>Perfil de taza</strong>Panela, cítricos y chocolate</div>
+                </div>
+
+                <div class="origin-collage" data-origin-collage>
+                    <figure class="origin-shot" data-origin-shot data-rotate="-7" style="--w: 39%; --x: 5%; --y: 16%; --r: -7deg;">
+                        <img src="assets/finca_la_esperanza1.png" alt="Casa principal de la finca La Esperanza" />
+                        <figcaption>Casa principal</figcaption>
+                    </figure>
+                    <figure class="origin-shot" data-origin-shot data-rotate="8" style="--w: 44%; --x: 45%; --y: 10%; --r: 8deg;">
+                        <img src="assets/finca_la_esperanza2.png" alt="Vista del cultivo en la finca La Esperanza" />
+                        <figcaption>Vista del cafetal</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="origin-band origin-band--closing" data-origin-band>
+        <div class="section-inner origin-band-inner">
+            <p>
+                A medida que TASARA sume nuevos lotes y más material audiovisual, esta línea de tiempo puede crecer con videos,
+                códigos de lote, nuevas fincas y más momentos de origen para que la experiencia siga siendo trazable y viva.
+            </p>
+            <div class="hero-ctas" style="margin:0;">
+                <a href="cafe-leonor.html" class="btn btn-outline">Volver a Café Leonor</a>
+                <a href="tienda.html" class="btn btn-primary">Ir a la tienda</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="assets/tasara_logo_blanco.png" alt="TASARA" class="footer-logo" />
+                <p>Origen y trazabilidad de Café Leonor<br />Fincas, lotes y paisaje cafetero</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Inicio</a>
+                <a href="tienda.html">Tienda</a>
+                <a href="cafe-leonor.html">Café Leonor</a>
+                <a href="origen.html">Origen</a>
+            </div>
+            <div class="footer-legal">
+                <p>© 2026 TASARA SAS</p>
+                <p><a href="mailto:contacto@tasara.colombia.com">contacto@tasara.colombia.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="vendor/gsap.min.js"></script>
+    <script src="vendor/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
